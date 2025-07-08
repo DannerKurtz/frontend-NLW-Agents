@@ -1,0 +1,13 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.0.6/schema.json",
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true
+    }
+    // A organização de imports é uma regra de lint
+  },
+  "formatter": {
+    "enabled": true
+  }
+}
