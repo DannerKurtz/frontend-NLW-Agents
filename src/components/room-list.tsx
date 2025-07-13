@@ -24,7 +24,9 @@ export default function RoomList() {
         </CardDescription>
       </CardHeader>
       <CardContent className='flex flex-col gap-3'>
-        {isLoading && <p>Carregando...</p>}
+        {isLoading && (
+          <p className='text-muted-foreground text-sm'>Carregando salas...</p>
+        )}
         {data?.map((room) => {
           return (
             <Link
